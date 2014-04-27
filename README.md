@@ -1,3 +1,4 @@
-# Git lesson 01
+# Git lesson 02
 IT研究会用身内プレゼン
-[GitHub Pagesで見る](http://unasuke.github.io/git-lesson-01/index.html)
+まだ製作途中
+[GitHub Pagesで見る](http://unasuke.github.io/git-lesson-02/index.html)
