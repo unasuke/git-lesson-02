@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>Git lesson 01</title>
+		<title>Git lesson 02</title>
 
 		<meta name="author" content="Yusuke Nakamura">
 
@@ -42,7 +42,7 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Git lesson1</h1>
+					<h1>Git lesson2</h1>
 					<img src="images/Git-Icon-1788C.png" width="300" height="300" >
 					<h3>うなすけ</h3>
 				</section>
@@ -50,34 +50,46 @@
 				<section>
 					<h2>はじめに</h2>
 					<p>Link URLが多いので、GitHub Pagesに上げました。以下のURLから同じのもが見れます。</p>
-					<p><a href="https://unasuke.github.io/git-lesson-01/index.html">https://unasuke.github.io/git-lesson-01/index.html</a></p>
+					<p><a href="https://unasuke.github.io/git-lesson-02/index.html">https://unasuke.github.io/git-lesson-02/index.html</a></p>
 				</section>
 
 				<section>
-					<p>ユーザー登録</p>
+					<h2>謝罪</h2>
 				</section>
 
 				<section>
+					<h2>謝罪</h2>
+					<p>前回の講義(?)でSourceTreeを使いました</p>
+					<p class="fragment">アンインストールしてください</p>
+				</section>
+
+				<section>
+					<h2>謝罪</h2>
+					<h3>理由</h3>
+					<p>共用のPCで使うにはやっぱり危ないところ多すぎ</p>
+					<p class="fragment">黒い画面でカタカタ→カッコイイ＆プログラマーっぽい</p>
+				</section>
+
+				<section>
+					<p>前回やった作業をコマンドプロンプトではどうやってするのかっていうのを、やります</p>
+				</section>
+
+				<section>
+					<h2>初期設定</h2>
 					<ul>
-						<li><a href="https://github.com/">GitHub</a>←全公開</li>
-						<li><a href="https://bitbucket.org/">bitbucket</a>←基本的に非公開</li>
+						<li>名前</li>
+						<li>メールアドレス</li>
 					</ul>
 				</section>
 
 				<section>
-					<p>msysgitのインストール</p>
-				</section>
-
-				<section>
-					<a href="http://msysgit.github.io/">http://msysgit.github.io/</a>
-				</section>
-
-				<section>
-					<img src="images/git-win-install-01.png">
-				</section>
-
-				<section>
-					<img src="images/git-win-install-02.png">
+					<h2>初期設定</h2>
+					<pre><code>
+#自分の名前とメールアドレス
+$ git config user.name "Tarou Fukui"
+$ git config user.email hogehoge@gmail.com
+					</code></pre>
+					<p class="fragment">ここで--globalをつけるとそのパソコン全体の設定になる</p>
 				</section>
 
 				<section>
